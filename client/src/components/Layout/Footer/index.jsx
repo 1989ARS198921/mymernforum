@@ -3,10 +3,10 @@ import './style.css';
 const Footer = () => {
   return (
     <footer className="general_footer">
-      <span className="copyright">Forum, {new Date().getFullYear()}. by xrystalll</span>
+      <span className="copyright">OK GO, {new Date().getFullYear()}. by Ars</span>
       <ul>
         <li className="footer_link">
-          <a href="https://github.com/xrystalll" target="_blank" rel="noopener noreferrer">My Github</a>
+          <a href="https://vk.com/ratatatata1989" target="_blank" rel="noopener noreferrer">My BK</a>
         </li>
       </ul>
     </footer>

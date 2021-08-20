@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+
 @import url('https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css');
+
 
 :root {
   --font-ss: 'Inter', 'Noto Sans JP', sans-serif;
@@ -8,31 +13,43 @@
   --border-radius-inner: calc(var(--border-radius) / 2);
   --transition-background: background-color .2s;
 
-  --accent-color: hsl(266deg 42% 59%);
-  --accent-color-tint: hsl(266deg 42% 53%);
+  --accent-color: hsl(181deg 42% 59%);
+
+  --accent-color-tint: hsl(181deg 42% 53%);
 
   --dark-bg: #191919;
 
   --main-info-color: #b6bfb7;
+
   --main-success-color: #4CAF50;
+
   --main-danger-color: #E53935;
 
   --main-text-light: #ededed;
+
   --secondary-text-light: #eeeeee;
 
   --actions-color: #64707d;
+
   --main-text: #e8e8e8;
+
   --main-bg: #161616;
+
   --secondary-text: #d7cadd;
+
   --secondary-bg: #111113;
+
   --secondary-bg-tint: #1d1d1d;
+
   --secondary-bg-tint-focus: #191919;
+
   --secondary-bg-muted: #0c0c0e;
+  
   --form-border-color: #161717;
   --form-border-color-active: var(--accent-color);
 
   --selection-text: #f2f2f2;
-  --selection-bg: #563170;
+  --selection-bg: #63916f;
 }
 .light {
   --main-text: #3e3e3e;
@@ -98,6 +115,7 @@ body.noscroll {
 }
 input:-webkit-autofill {
   -webkit-background-clip: text;
+  
   box-shadow: 0 0 0 20px var(--secondary-bg-tint) inset !important;
   -webkit-text-fill-color: var(--main-text) !important;
 }
